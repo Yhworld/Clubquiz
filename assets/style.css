@@ -18,7 +18,7 @@
     font-family: 'sans';
 }
 
-#pageone {
+#pageOne {
     display: none;
 }
 
@@ -46,6 +46,7 @@ button.startquiz:hover {
     font-size: 25px;
     cursor: pointer;
     transition-duration: 0.55s;
+    border: transparent;
 }
 
 
