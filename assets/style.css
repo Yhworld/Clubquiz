@@ -1,0 +1,48 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.openpage {
+    justify-content: center;
+    height: 980px;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #0990bdb9, pink);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 250px;
+    font-family: 'sans';
+}
+
+.headertext h2 {
+    font-size: 64px;
+    color: #fff;
+    font-weight: lighter;
+}
+
+.headertext h2 span {
+    color: lightpink;
+}
+
+button.startquiz {
+    padding: 25px 70px 25px 70px;
+    border-radius: 12px;
+    border: transparent;
+    font-size: 18px;
+}
+
+button.startquiz:hover {
+    background: pink;
+    color: black;
+    opacity: 2s;
+    font-size: 25px;
+    cursor: pointer;
+    transition-duration: 0.55s;
+}
+
+
+
