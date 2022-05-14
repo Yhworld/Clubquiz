@@ -49,3 +49,67 @@ button.startquiz:hover {
     border: transparent;
 }
 
+
+.secondpage {
+    height: 980px;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #0990bdb9, pink);
+    color: #fff;
+}
+
+.secondpage h2 {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 38px;
+    font-weight: lighter;
+}
+.que {
+    padding-left: 36%;
+    line-height: 1.7;
+}
+
+.secondpage h2 span {
+    color: #fdfd28;
+}
+
+.que span {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+p#questionOne {
+    font-size: 26px;
+}
+p#questionTwo {
+    font-size: 26px;
+}
+
+p#questionThree {
+    font-size: 26px;
+}
+
+p#questionFour {
+    font-size: 26px;
+}
+
+button.submit {
+    margin-left: 80%;
+    padding: 15px 50px 15px 50px;
+    border-radius: 12px;
+    border: transparent;
+    background: rgb(250, 167, 180);
+    font-size: 18px;
+    
+}
+
+button.submit:hover {
+    background: rgb(247, 149, 165);
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+    transition-duration: 0.55s;
+    border: transparent;
+}
+
+
+
