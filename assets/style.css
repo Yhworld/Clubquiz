@@ -252,6 +252,7 @@ button#retry {
     display: flex;
     align-items: center;
     justify-content: center;
+    display: none;
 }
 
 .headerscore h2 {
