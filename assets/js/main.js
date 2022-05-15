@@ -5,6 +5,8 @@ var averageScore = document.querySelector('#averageMarks');
 var poorScore =document.querySelector('#poorMarks');
 var retryQuiz = document.getElementById('retry');
 
-
+startBtn.addEventListener('click', sendEvent);
+quizBtn.addEventListener('click',calculationsEvent);
+retryQuiz.addEventListener('click',retryEvent);
 
 
