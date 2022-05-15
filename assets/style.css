@@ -55,6 +55,7 @@ button.startquiz:hover {
     background-color: #fff;
     background-image: linear-gradient(to bottom, #0990bdb9, pink);
     color: #fff;
+    display: none;
 }
 
 .secondpage h2 {
@@ -97,7 +98,7 @@ button.submit {
     padding: 15px 50px 15px 50px;
     border-radius: 12px;
     border: transparent;
-    background: rgb(250, 167, 180);
+    background:#fddae0;
     font-size: 18px;
     
 }
