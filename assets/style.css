@@ -112,9 +112,9 @@ button.submit:hover {
     border: transparent;
 }
 
-/**/
 
-.marks {
+
+.goodmarks {
     height: 980px;
     background-color: #fff;
     background-image: linear-gradient(to bottom, #0990bdb9, pink);
@@ -129,12 +129,12 @@ button.submit:hover {
     font-weight: lighter;
 }
 
-p#score {
+p#goodscore {
     text-align: center;
     font-size: 64px;
 }
 
-p#remarks {
+p#goodremarks {
     text-align: center;
     font-size: 48px;
 }
@@ -143,54 +143,7 @@ p#remarks {
     line-height: 2;
 }
 
-p.comments {
-    text-align: center;
-    font-size: 30px;
-}
-
-.retrybutton {
-    padding-left: 150px;
-}
-
-button#retry {
-    background: transparent;
-    border: transparent;
-    color: #48292e;
-    font-size: 18px;
-    text-decoration: underline;
-    cursor: pointer;
-}/**/
-
-.marks {
-    height: 980px;
-    background-color: #fff;
-    background-image: linear-gradient(to bottom, #0990bdb9, pink);
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.headerscore h2 {
-    font-size: 64px;
-    font-weight: lighter;
-}
-
-p#score {
-    text-align: center;
-    font-size: 64px;
-}
-
-p#remarks {
-    text-align: center;
-    font-size: 48px;
-}
-
-.headerscore {
-    line-height: 2;
-}
-
-p.comments {
+p#goodcomments {
     text-align: center;
     font-size: 30px;
 }
@@ -215,18 +168,10 @@ button#retry {
 .headerscore h2 span {
     color: lightpink;
 }
-#remarks span {
-    color: light
+#goodremarks span {
+    color: lightpink
 }
 
-.comments span {
+#goodcomments span {
     color: pink;
 }
-
-.retrybutton {
-    padding-left: 150px;
-}
-
-
-
-
