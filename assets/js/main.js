@@ -86,6 +86,7 @@ function retryEvent(e){
   e.preventDefault(e);
   var questionsPage = document.getElementById('quizgroup');
   questionsPage.style.display='initial';
+  score= 0;
   excellentScore.style.display='none';
   averageScore.style.display='none'
   poorScore.style.display='none';
