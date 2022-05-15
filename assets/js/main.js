@@ -25,4 +25,26 @@ function sendEvent(e) {
     questionsPage.style.display='initial';
 }
 
+function calculationsEvent(e) {
+    e.preventDefault()
 
+    let questionOne = document.getElementById('questionOne')
+    let questionTwo = document.getElementById('questionTwo')
+    let questionThree = document.getElementById('questionThree')
+    let questionFour = document.getElementById('questionFour')
+    let totalQuestion = [questionOne, questionTwo, questionThree, questionFour]
+
+
+    for (let h = 0; h < array.length; h++) {
+        for(var i=0; i<totalQuestion.length;i++){
+        for( var j=0; j<totalQuestion[i].length;j++){
+        if(quiz[i][j].checked){
+        if(quiz[i][j].value === answers[h]){
+        score++;
+        }
+        }
+    }
+}
+    }
+
+}
