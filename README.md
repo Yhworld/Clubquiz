@@ -19,7 +19,7 @@ https://www.figma.com/file/4IGy0m73Y2PU9uT7S8wVao/Untitled
  - [Authors Info](#Authors-Info)
  ## Description
  <p>This project is a web application for Quiz board that prompts the user to answer the questions provided and measure the content covered by the student,the questions have choices which the user can pick the right answers</p>
-[Go Back to the top](#delani-studio)
+[Go Back to the top](# Clubquiz)
 ## Features
 As a user of the application,you will be able to :
 1. See a description of what the services offered by the studio
