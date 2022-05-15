@@ -122,6 +122,7 @@ button.submit:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    display: none;
 }
 
 .headerscore h2 {
@@ -173,5 +174,69 @@ button#retry {
 }
 
 #goodcomments span {
+    color: pink;
+}
+
+
+
+.averagemarks {
+    height: 980px;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #0990bdb9, pink);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerscore h2 {
+    font-size: 64px;
+    font-weight: lighter;
+}
+
+p#averagescore {
+    text-align: center;
+    font-size: 64px;
+}
+
+p#averageremarks {
+    text-align: center;
+    font-size: 48px;
+}
+
+.headerscore {
+    line-height: 2;
+}
+
+p#averagecomments {
+    text-align: center;
+    font-size: 30px;
+}
+
+.retrybutton {
+    padding-left: 150px;
+}
+
+button#retry {
+    background: transparent;
+    border: transparent;
+    color: #48292e
+}
+
+#retry:hover {
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
+.headerscore h2 span {
+    color: lightpink;
+}
+#averageremarks span {
+    color: lightpink
+}
+
+#averagecomments span {
     color: pink;
 }
