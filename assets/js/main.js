@@ -56,6 +56,39 @@ function calculationsEvent(e) {
       }
     }
   }
+  var questionsPage = document.getElementById("quizgroup");
+  questionsPage.style.display = "none";
+  console.log(score);
+
+  var totalMarksGained = grading(score);
+  if (totalMarksGained >= 80) {
+    var percentagPass = document.getElementById("goodscore");
+    percentagPass.textContent = String(totalMarksGained);
+
+    excellentScore.style.display = "initial";
+  } else if (totalMarksGained >= 50) {
+    var percentagAverage = document.getElementById("averagescore");
+    percentagAverage.textContent = String(totalMarksGained);
+    averageScore.style.display = "initial";
+  } else {
+    var percentagFail = document.getElementById("poorscore");
+    percentagFail.textContent = String(totalMarksGained);
+    poorScore.style.display = "initial";
+  }
+}
+
+function grading(x) {
+  var grade = (x / answers.length) * 100;
+  return grade;
+}
+
+function retryEvent(e){
+  e.preventDefault(e);
+  var questionsPage = document.getElementById('quizgroup');
+  questionsPage.style.display='initial';
+  excellentScore.style.display='none';
+  averageScore.style.display='none'
+  poorScore.style.display='none';
 }
 
   
