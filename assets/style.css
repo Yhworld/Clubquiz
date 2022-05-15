@@ -1,5 +1,5 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Poppins&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@
     align-items: center;
     flex-direction: column;
     gap: 250px;
-    font-family: 'sans';
+    font-family: 'Poppins';
 }
 
 .headertext h2 {
@@ -117,6 +117,7 @@ button.submit:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Poppins';
 }
 
 .headerscore h2 {
@@ -181,6 +182,7 @@ button#retry {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Poppins';
 }
 
 .headerscore h2 {
@@ -245,6 +247,7 @@ button#retry {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Poppins';
 
 }
 
