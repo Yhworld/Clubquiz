@@ -187,6 +187,7 @@ button#retry {
     display: flex;
     align-items: center;
     justify-content: center;
+    display: none;
 }
 
 .headerscore h2 {
@@ -238,5 +239,69 @@ button#retry {
 }
 
 #averagecomments span {
+    color: pink;
+}
+
+
+
+.poormarks {
+    height: 980px;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #0990bdb9, pink);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerscore h2 {
+    font-size: 64px;
+    font-weight: lighter;
+}
+
+p#poorscore {
+    text-align: center;
+    font-size: 64px;
+}
+
+p#poorremarks {
+    text-align: center;
+    font-size: 48px;
+}
+
+.headerscore {
+    line-height: 2;
+}
+
+p#poorcomments {
+    text-align: center;
+    font-size: 30px;
+}
+
+.retrybutton {
+    padding-left: 150px;
+}
+
+button#retry {
+    background: transparent;
+    border: transparent;
+    color: #48292e
+}
+
+#retry:hover {
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
+.headerscore h2 span {
+    color: lightpink;
+}
+#poorremarks span {
+    color: lightpink
+}
+
+#poorcomments span {
     color: pink;
 }
