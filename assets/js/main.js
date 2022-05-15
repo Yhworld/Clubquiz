@@ -10,3 +10,19 @@ quizBtn.addEventListener('click',calculationsEvent);
 retryQuiz.addEventListener('click',retryEvent);
 
 
+let totalCorrectScore = 0;
+
+const correctAnswers= ['JS', 'var', 'add', 'Hyper text markup language' ]
+
+
+function sendEvent(e) {
+    e.preventDefault()
+    var firstPage = document.getElementById('pageOne')
+
+    var questionsPage = document.getElementById('quizPage')
+
+    firstPage.style.display='none';
+    questionsPage.style.display='initial';
+}
+
+
