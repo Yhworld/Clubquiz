@@ -17,28 +17,28 @@
         </div>
 
     <div class="start">
-        <button class="startquiz">Start Quiz</button>
+        <button id="startquiz">Start Quiz</button>
     </div>
     </section>
 
 
+    <div id="quizgroup">
     <section class="secondpage" id="quizPage">
         <h2>Java<span>script</span> Questions</h2>
 
         <br>
-
 <div class="que">
         <p class="questions" id="questionOne">
             1. What is the abbreviation of JavaScript
         </p>
 
-        <input type="radio" name="answerOne" value="incorrect"><span>Java</span>
+        <input type="radio" name="answerOne" value="Java"><span>Java</span>
         <br>
-        <input type="radio" name="answerOne" value="incorrect"><span>JavaScript</span>
+        <input type="radio" name="answerOne" value="JavaScript"><span>JavaScript</span>
         <br>
-        <input type="radio" name="answerOne" value="incorrect"><span>J</span>
+        <input type="radio" name="answerOne" value="J"><span>J</span>
         <br>
-        <input type="radio" name="answerOne" value="correct"><span>JS</span>
+        <input type="radio" name="answerOne" value="JS"><span>JS</span>
 </div>
 
 
@@ -51,13 +51,14 @@
             2. how do you pass in a variable in JavaScript
         </p>
 
-        <input type="radio" name="answerTwo" value="correct"><span>var</span>
+
+        <input type="radio" name="answerTwo" value="var"><span>var</span>
         <br>
-        <input type="radio" name="answerTwo" value="incorrect"><span>you</span>
+        <input type="radio" name="answerTwo" value="you"><span>you</span>
         <br>
-        <input type="radio" name="answerTwo" value="incorrect"><span>me</span>
+        <input type="radio" name="answerTwo" value="me"><span>me</span>
         <br>
-        <input type="radio" name="answerTwo" value="incorrect"><span>who</span>
+        <input type="radio" name="answerTwo" value="who"><span>who</span>
 
 </div>
 
@@ -70,13 +71,13 @@
         3. What does .push() do
     </p>
 
-    <input type="radio" name="answerThree" value="correct"><span>add</span>
+    <input type="radio" name="answerThree" value="add"><span>add</span>
     <br>
-    <input type="radio" name="answerThree" value="incorrect"><span>delete</span>
+    <input type="radio" name="answerThree" value="delete"><span>delete</span>
     <br>
-    <input type="radio" name="answerThree" value="incorrect"><span>update </span>
+    <input type="radio" name="answerThree" value="update"><span>update </span>
     <br>
-    <input type="radio" name="answerThree" value="incorrect"><span>pushes </span>
+    <input type="radio" name="answerThree" value="pushes"><span>pushes </span>
 
 </div>
 
@@ -88,25 +89,25 @@
         4. What is Html in full
     </p>
 
-    <input type="radio" name="answerFour" value="incorrect"><span>none of the above</span>
+    <input type="radio" name="answerFour" value="none of the above"><span>none of the above</span>
     <br>
-    <input type="radio" name="answerFour" value="incorrect"><span>hatari </span>
+    <input type="radio" name="answerFour" value="hatari"><span>hatari </span>
     <br>
-    <input type="radio" name="answerFour" value="correct"><span>Hyper text markup language </span>
+    <input type="radio" name="answerFour" value="Hypertextmarkuplanguage"><span>Hyper text markup language </span>
     <br>
-    <input type="radio" name="answerFour" value="incorrect"><span>hot mailing language</span>
+    <input type="radio" name="answerFour" value="hot mailing language"><span>hot mailing language</span>
 
     <br>
 
     <button class="submit" id="btnsubmit">Submit</button>
 
 </div>
-
+</div>
 </section>
 
 
-<section class="goodmarks" id="excellentMarks">
-
+<div id="excellentMarks">
+<div class="goodmarks">
     <div class="headerscore">
         <h2>
             Your <span>Score</span> is : 
@@ -132,14 +133,20 @@
 
 
         <div class="retrybutton">
-        <button class="tryagain" id="retry"> Try again </button>
+        <button class="tryagain" id="retry1"> Try again </button>
         </div>
+    </div>
+
 
     </div>
 
-</section>
+</div>
 
-<section class="averagemarks" id="averageMarks">
+
+<div id="averageMarks">
+<div class="averagemarks" >
+
+
 
     <div class="headerscore">
         <h2>
@@ -166,14 +173,18 @@
 
 
         <div class="retrybutton">
-        <button class="tryagain" id="retry"> Try again </button>
+        <button class="tryagain" id="retry2"> Try again </button>
         </div>
+    </div>
 
     </div>
 
-</section>
+</div>
 
-<section class="poormarks" id="PoorMarks">
+
+
+<div id="PoorMarks">
+<div class="poormarks" >
 
     <div class="headerscore">
         <h2>
@@ -200,12 +211,13 @@
 
 
         <div class="retrybutton">
-        <button class="tryagain" id="retry"> Try again </button>
+        <button class="tryagain" id="retry3"> Try again </button>
         </div>
+    </div>
 
     </div>
 
-</section>
+</div>
 
 <script src="./assets/js/main.js"></script>
 </body>
