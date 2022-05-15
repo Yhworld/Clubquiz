@@ -112,5 +112,121 @@ button.submit:hover {
     border: transparent;
 }
 
+/**/
+
+.marks {
+    height: 980px;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #0990bdb9, pink);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerscore h2 {
+    font-size: 64px;
+    font-weight: lighter;
+}
+
+p#score {
+    text-align: center;
+    font-size: 64px;
+}
+
+p#remarks {
+    text-align: center;
+    font-size: 48px;
+}
+
+.headerscore {
+    line-height: 2;
+}
+
+p.comments {
+    text-align: center;
+    font-size: 30px;
+}
+
+.retrybutton {
+    padding-left: 150px;
+}
+
+button#retry {
+    background: transparent;
+    border: transparent;
+    color: #48292e;
+    font-size: 18px;
+    text-decoration: underline;
+    cursor: pointer;
+}/**/
+
+.marks {
+    height: 980px;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #0990bdb9, pink);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerscore h2 {
+    font-size: 64px;
+    font-weight: lighter;
+}
+
+p#score {
+    text-align: center;
+    font-size: 64px;
+}
+
+p#remarks {
+    text-align: center;
+    font-size: 48px;
+}
+
+.headerscore {
+    line-height: 2;
+}
+
+p.comments {
+    text-align: center;
+    font-size: 30px;
+}
+
+.retrybutton {
+    padding-left: 150px;
+}
+
+button#retry {
+    background: transparent;
+    border: transparent;
+    color: #48292e
+}
+
+#retry:hover {
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
+.headerscore h2 span {
+    color: lightpink;
+}
+#remarks span {
+    color: light
+}
+
+.comments span {
+    color: pink;
+}
+
+.retrybutton {
+    padding-left: 150px;
+}
+
+
 
 
